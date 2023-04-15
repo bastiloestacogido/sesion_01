@@ -4,9 +4,8 @@ function setup() {
 }
 
 function draw() {
-    frameRate(10);
-    textSize(25);
-    text("🐺",random(0,windowWidth),random(0,windowHeight));
+    textSize(20);
+    text("🐺",random(windowWidth),random(windowHeight));
 }
 
 function windowResized() {
