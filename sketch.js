@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-    textSize(25);
+    textSize(5);
     text("🐺",random(0,windowWidth),random(0,windowHeight));
 }
 
