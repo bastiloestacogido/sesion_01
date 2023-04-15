@@ -5,8 +5,7 @@ function setup() {
 
 function draw() {
     textSize(25);
-    textAlign(CENTER, CENTER);
-    text("🐺", mouseX, mouseY);
+    text("🐺",random(0,windowWidth),random(0,windowHeight));
 }
 
 function windowResized() {
