@@ -24,7 +24,7 @@
             background(0, 0.5);
             for (var i = 0; i < 360; i += 1) {
                 rotate(1);
-                let r = frameCount + noise(i / 5, frameCount / 20, mouseX) * 100;
+                var r = frameCount + noise(i / 5, frameCount / 20, mouseX) * 100;
                 ellipse(r, 0, mouseY / 100, mouseX / 100);
             }
         }
