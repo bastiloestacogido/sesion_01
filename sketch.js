@@ -4,7 +4,8 @@ function setup() {
 }
 
 function draw() {
-    textSize(5);
+    frameRate(30);
+    textSize(10);
     text("🐺",random(0,windowWidth),random(0,windowHeight));
 }
 
